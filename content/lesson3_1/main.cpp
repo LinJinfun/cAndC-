@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int main() {
   int math;
 	/*
@@ -8,7 +8,7 @@ int main() {
   printf("我的數學分數是:%d\n", math);
 	*/
 
-	std::cout << "請輸入數學分數:";
-	std::cin >> math;
-	std::cout << "我的數學分數是:" << math << std::endl;
+	cout << "請輸入數學分數:";
+	cin >> math;
+	cout << "我的數學分數是:" << math << endl;
 }
