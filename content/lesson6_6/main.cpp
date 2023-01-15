@@ -12,6 +12,15 @@ int main() {
 
   for (int i = 0; i < element_nums; i++) {
     students[i] = random() % (100 - 50 + 1) + 50;
-    cout << students[i] << endl;
   }
+
+	for(int i=0; i<student_nums;i++){
+		cout << "第" << i+1 << "學生:";
+		for(int j=0; j<subject_nums;j++){
+			int index_num = i*subject_nums+j;
+			cout << students[index_num] << " ";
+		}
+		cout << endl;
+		
+	}
 }
