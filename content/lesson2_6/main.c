@@ -3,14 +3,8 @@
 int main(void) {
 	int chinese,english,math,sum;
 	double average;
-  printf("請輸入國文成積(0~100):");
-	scanf("%d",&chinese);
-
-	printf("請輸入英文成積(0~100):");
-	scanf("%d",&english);
-
-	printf("請輸入數學成積(0~100):");
-	scanf("%d",&math);
+  printf("請輸入國文,英文,數學(國文,英文,數學):");
+	scanf("%d,%d,%d",&chinese,&english,&math);
 
 	sum = chinese + english + math;
 	//average = (double)sum/3; //強迫轉換
