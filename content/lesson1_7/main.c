@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main(void) {
-  float m,n;
-	printf("請輸入m:");
-	scanf("%f",&m);
-	printf("請輸入n:");
-	scanf("%f",&n);
+  unsigned short i = 45768;
+  printf("%d\n", i);
+  long m = 456789;
+  printf("%ld\n", m);
+  long long n = 12345678900;
+  printf("%lld\n", n);
 
-	printf("%.0f + %.0f = %.2f\n",m,n,m+n);
-	printf("%.0f - %.0f = %.2f\n",m,n,m-n);
-	printf("%.0f * %.0f = %.2f\n",m,n,m*n);
-	printf("%.0f / %.0f = %.2f\n",m,n,m/n);
-	
+	float PI = 3.14159;
+	printf("%f\n",PI);
+
+	double myDouble = 34567.12345678;
+	printf("%.8f\n",myDouble);
   return 0;
 }
