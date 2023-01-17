@@ -3,7 +3,9 @@ using namespace std;
 int main() {
   int chinese,english,math,sum;
 	double average;
-	const char* name = "徐國堂"; //c語言的字元陣列
+	string name; //c++語言的字串
+	cout << "請輸入學生姓名:";
+	cin >> name;
   cout << "請輸入國文,英文,數學(國文 英文 數學):";
 	cin >> chinese >> english >> math;
 
