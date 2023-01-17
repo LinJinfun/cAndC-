@@ -3,8 +3,8 @@ using namespace std;
 int main() {
   int chinese,english,math,sum;
 	double average;
-  cout << "請輸入國文,英文,數學(國文,英文,數學):";
-	scanf("%d,%d,%d",&chinese,&english,&math);
+  cout << "請輸入國文,英文,數學(國文 英文 數學):";
+	cin >> chinese >> english >> math;
 
 	sum = chinese + english + math;
 	//average = (double)sum/3; //強迫轉換
