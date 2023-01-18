@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
 	int x = 10;
-	x = x + 1;
-	x++;
-	++x;
-	x--;
-	--x;
-	cout << x << endl;
+	int y = ++x;
+	cout << "x:" << x << ",y:" << y << endl;
+
+	int m = 10;
+	int n = m++;
+	cout << "m:" << m << ",n:" << n << endl;
 }
