@@ -17,6 +17,7 @@ int main() {
   }
   */
 
+	/*
   int pressure;
   cout << "請輸入血壓值:";
   cin >> pressure;
@@ -24,5 +25,15 @@ int main() {
     cout << "血壓正常\n";
   } else {
     cout << "血壓不正常\n";
+  }
+	*/
+
+	int pressure;
+  cout << "請輸入血壓值:";
+  cin >> pressure;
+  if (pressure < 70 || pressure > 140) {
+		cout << "血壓不正常\n";    
+  } else {
+    cout << "血壓正常\n";
   }
 }
