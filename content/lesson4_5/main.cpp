@@ -1,10 +1,18 @@
 #include <iostream>
 //計算1~10的總和
 using namespace std;
+
 int main() {
+	int n,m;
+	cout << "請輸入起始值:";
+	cin >> n;
+
+	cout << "請輸入結束值:";
+	cin >> m;
+	
 	int total = 0;
-	for(int i=1; i<=10; i++){
+	for(int i=n; i<=m; i++){
 		total += i;
 	}
-	cout << "1~10的總和為:" << total << endl;
+	cout << n <<"~" << m << "的總和為:" << total << endl;
 }
